@@ -54,11 +54,30 @@ header button {
     }
 
     #hamburger:checked ~ nav{
-        display: block;
+        display: flex;
     }
 
     #hamburger:checked ~ button{
-        display: block;
+        display: flex;
+    }
+
+    header nav{
+        position: absolute;
+        top: 80px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        padding: 20px 0;
+        gap: 10px;
+    }
+
+    header button{
+        position: absolute;
+        top: 160px;
+        left: 40%;
+        background-color: #000000;
+        width: 20%;
     }
 }
 
