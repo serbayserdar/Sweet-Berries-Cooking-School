@@ -13,12 +13,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 nav {
     display: flex;
     column-gap: 20px;
+    order: -1;
 }
 
 
@@ -29,4 +30,36 @@ header button {
     border-radius: 20px;
     padding: 16px 25px;
 }
+
+.hamburger-icon {
+    display: none;
+}
+
+#hamburger {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .hamburger-icon {
+        display: block;
+        font-size: 40px;
+    }
+
+    header nav, header button {
+        display: none;
+    }
+
+    header img {
+        padding-left: 30%;
+    }
+
+    #hamburger:checked ~ nav{
+        display: block;
+    }
+
+    #hamburger:checked ~ button{
+        display: block;
+    }
+}
+
 
