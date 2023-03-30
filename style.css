@@ -39,6 +39,41 @@ header button {
     display: none;
 }
 
+.banner {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.banner-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-h1 {
+    color: #000000;
+    font-family: 'Roboto Serif';
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 75px;
+    font-style: normal;
+}
+
+.banner-p {
+    color: #000000;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 80%;
+    padding-top: 30px;
+}
+
+.banner-img {
+    width: 45%;
+}
+
+
 @media (max-width: 768px) {
     .hamburger-icon {
         display: block;
