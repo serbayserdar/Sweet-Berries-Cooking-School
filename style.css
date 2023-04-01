@@ -102,6 +102,10 @@ header button {
     border-radius: 40px;
     position: relative;
     gap: 20px;
+    box-shadow: 2px -1px 17px -2px rgba(0,0,0,0.48);
+    -webkit-box-shadow: 2px -1px 17px -2px rgba(0,0,0,0.48);
+    -moz-box-shadow: 2px -1px 17px -2px rgba(0,0,0,0.48);
+    
 }
 
 .card-1 {
