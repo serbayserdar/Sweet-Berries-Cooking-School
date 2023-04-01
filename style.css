@@ -171,6 +171,18 @@ p {
     top: -30px;
 }
 
+footer {
+    background-color: #FEBD2F;
+    margin: 0 -12.5%;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+footer img {
+    width: 8%;
+}
+
 
 @media (max-width: 960px) {
     .banner {
