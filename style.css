@@ -64,6 +64,10 @@ header button {
     font-style: normal;
 }
 
+.banner-h1-for-tablet {
+    display: none;
+}
+
 .banner-p {
     color: #000000;
     font-family: 'Roboto';
@@ -202,6 +206,14 @@ footer img {
         width: 100%;
         margin-top: 30px;
     }
+
+    .card-container {
+        height: 900px;
+    }
+
+    footer {
+        height: 50px;
+    }
 }
 
 
@@ -225,6 +237,43 @@ footer img {
         display: flex;
     }
 
+    .banner-h1 {
+        display: none;
+    }
+
+    .banner-h1-for-tablet {
+    display: flex;
+    color: #000000;
+    font-family: 'Roboto Serif';
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    font-style: normal;
+    text-align: center;
+    }
+
+    .banner-p {
+        color: #000000;
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 32px;
+        width: 75%;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "card-1 card-2"
+        "card-3 card-4"
+        "card-5 card-6";
+        gap: 50px;
+        height: 1000px;
+        margin-bottom: 120px;
+    }
 
 
     header nav{
@@ -250,10 +299,19 @@ footer img {
     }
 
     .banner {
-        /* margin-top: 180px; */
+        display: flex;
+        flex-direction: column;
+        /* margin-top: 50px;
+        margin-bottom: 100px; */
+    }
+
+    footer {
+        height: 50px;
     }
 
    
 }
+
+
 
 
