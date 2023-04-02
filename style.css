@@ -109,7 +109,6 @@ header button {
     box-shadow: 2px -1px 17px -2px rgba(0,0,0,0.48);
     -webkit-box-shadow: 2px -1px 17px -2px rgba(0,0,0,0.48);
     -moz-box-shadow: 2px -1px 17px -2px rgba(0,0,0,0.48);
-    
 }
 
 .card-1 {
@@ -188,7 +187,7 @@ footer {
 }
 
 footer img {
-    width: 8%;
+    width: 10%;
 }
 
 
@@ -208,11 +207,15 @@ footer img {
     }
 
     .card-container {
-        height: 900px;
+        height: 1000px;
     }
 
     footer {
         height: 50px;
+    }
+
+    footer img {
+        width: 13%;
     }
 }
 
@@ -271,7 +274,7 @@ footer img {
         "card-3 card-4"
         "card-5 card-6";
         gap: 50px;
-        height: 1000px;
+        height: 1100px;
         margin-bottom: 120px;
     }
 
@@ -309,9 +312,55 @@ footer img {
         height: 50px;
     }
 
+    footer img {
+        width: 15%;
+    }
+
    
 }
 
 
+
+
+@media (max-width: 650px) {
+    .card-container {
+        height: 1200px;
+    }
+}
+
+
+
+
+
+@media (max-width: 568px) {
+
+    .card1-h2 {
+        font-size: 35px;
+        line-height: 40px;
+        padding: 28px;
+    }
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: 
+        "card-1"
+        "card-2"
+        "card-3"
+        "card-4"
+        "card-5"
+        "card-6";
+        gap: 50px;
+        height: 1600px;
+        margin-bottom: 120px;
+    }
+
+    footer {
+        height: 50px;
+    }
+
+    footer img {
+        width: 20%;
+    }
+}
 
 
